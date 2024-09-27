@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LugCar - Seu aluguel de veiculos numero 1 </title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="img/parking.jpeg" alt="parking Logo" class="logo">
+    </div>
+    <div class="container">
+        <h1>Dados do cliente</h1>
+    </div class="form">
+    <label for="cxnome">Digite o nome:</label>
+    <input type="text" id="cxnome"><br/>
+
+    <label for="cxplaca">Digite a placa:</label>
+    <input type="text" id="cxplaca"><br/>
+    
+    <label for="cxmodelo">Digite o modelo do carro:</label>
+    <input type="text" id="cxmodelo"><br/>
+
+    <label for="cxdias">Digite quantos dias:</label>
+    <input type="number" id="cxdias"><br/>
+
+    <label for="cxvalor">Digite o valor da diaria:</label>
+    <input type="number" id="cxvalor"><br/>
+
+    <div class="buttons">
+        <input type="button" value="Calcular" id="btnCalcular">
+        <input type="button" value="Limpar" id="btnLimpar">
+        <input type="button" value="Sair" id="btnSair">
+        </div>
+    </div>
+    
+    <div class="resumo">
+        <h2>Resumo</h2>
+        <p id="resumoNome"></p>
+        <p id="resumoPlaca"></p>
+        <p id="resumoModelo"></p>
+        <p id="resumoDias"></p>
+        <p id="resumoValor"></p>
+        </div>
+
+    <script src="js/app.js"></script>
+    </body>
+</html>
+    
+   

@@ -1,0 +1,86 @@
+body{
+    font-family: cursive;
+    background-color: rgb(255, 236, 187);
+    margin: 0;
+    padding: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    display: block;
+    background-color: transparent !important;
+}
+
+.container{
+width: 300px;
+margin: 0 auto;
+padding: 20px;
+background-color: rgb(251, 189, 66);
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2{
+    text-align: center;
+    color: #000000;
+}
+
+.form{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="button"],
+input[type="reset"]{
+    width: 30%;
+    padding: 8px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+input[type="reset"]{
+    background-color: rgb(125, 125, 125);
+}
+
+input[type="button"]:hover,
+input[type="reset"]:hover{
+    opacity: 0.9;
+}
+
+.resumo{
+    text-align: center;
+    background-color: rgb(251, 189, 66);
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
